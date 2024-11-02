@@ -1,8 +1,6 @@
-Here’s an example `README.md` file for your "Student Registration System" project. This file provides an overview of the project, its features, setup instructions, and usage details.
 
----
-
-```markdown
+github link: https://github.com/pradeepchandrakar/Students-Registration-System-.git
+markdown
 # Student Registration System
 
 A simple web-based student registration system where users can add, edit, and delete student details. This project uses HTML, CSS, and JavaScript to manage a list of students and their information.
