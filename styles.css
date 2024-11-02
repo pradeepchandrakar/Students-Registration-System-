@@ -1,0 +1,172 @@
+
+
+
+
+/* -------------------- */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f3f7f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  animation: fadeInDown 1s ease-out;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+.th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: blue;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Form Styling */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-out;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+/* Table Styling */
+#studentDisplay {
+  width: 100%;
+  max-width: 800px;
+}
+
+#studentTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-out;
+}
+
+#studentTable th, #studentTable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#studentTable th {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+}
+
+#studentTable td {
+  color: #34495e;
+}
+
+#studentTable tr:nth-child(even) {
+  background-color: #f3f7f9;
+}
+
+/* Button Styling within Table */
+#studentTable td .btn {
+  display: inline-flex;
+  gap: 10px;
+}
+
+#studentTable button {
+  background-color: #2ecc71;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#studentTable button:hover {
+  background-color: #27ae60;
+}
+
+#studentTable button.delete {
+  background-color: #e74c3c;
+}
+
+#studentTable button.delete:hover {
+  background-color: #c0392b;
+}
+
+/* Animation */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
