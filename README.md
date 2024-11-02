@@ -34,7 +34,7 @@ A simple web-based student registration system where users can add, edit, and de
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/student-registration-system.git
+   git clone https://github.com/pradeepchandrakar/Students-Registration-System-.git
    ```
 2. Navigate to the project directory:
    ```bash
